@@ -20,6 +20,10 @@ html {
     width: var(--width-100);
 }
 
+.color-text-white {
+    color: var(--bg-color-white);
+}
+
 /* <!-- sezione header top --> */
 .header-top .row .col-12 img {
     width: 10%;
@@ -29,3 +33,18 @@ html {
     font-size: 2em;
     color: grey;
 }
+
+/* <!-- /sezione header top --> */
+
+/* main  */
+
+/* sezione jumbotron  */
+
+.text-box img {
+    width: 50%;
+}
+
+.text-box span {
+    color: var(--bg-color-white);
+}
+/* /sezione jumbotron  */
