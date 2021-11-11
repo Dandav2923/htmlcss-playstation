@@ -1,4 +1,4 @@
-:roor {
+:root {
     --width-100: 100%;
     --height-100: 100%;
     --bg-color-black: rgb(0,0,0);
@@ -6,4 +6,26 @@
     --color-text-light-blue: #0070D1;
     --color-button-blue: #2D64E6;
     --color-button-orange: #CC3D0F;
+}
+
+html {
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+.bg-color-black {
+    background-color: var(--bg-color-black);
+}
+
+.width-100 {
+    width: var(--width-100);
+}
+
+/* <!-- sezione header top --> */
+.header-top .row .col-12 img {
+    width: 10%;
+}
+
+#search {
+    font-size: 2em;
+    color: grey;
 }
