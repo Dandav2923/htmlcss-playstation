@@ -25,6 +25,7 @@ html {
 }
 
 /* <!-- sezione header top --> */
+
 .header-top .row .col-12 img {
     width: 10%;
 }
@@ -40,6 +41,12 @@ html {
 
 /* sezione jumbotron  */
 
+.jumbotron-container {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
 .text-box img {
     width: 50%;
 }
@@ -47,4 +54,19 @@ html {
 .text-box span {
     color: var(--bg-color-white);
 }
+
+.pt-20 {
+    padding-top: 20rem !important;
+}
+
 /* /sezione jumbotron  */
+
+
+/* sezione elenco giochi ps */
+.w-15 {
+    width: 15% !important;
+}
+
+/* /sezione elenco giochi ps */
+
+/* sezione presentazione ps5 con immagine console e testo */
