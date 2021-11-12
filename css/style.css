@@ -4,6 +4,7 @@
     --bg-color-black: rgb(0,0,0);
     --bg-color-white: rgb(255,255,255);
     --bg-color-blue: #081331;
+    --bg-color-footer: #00439C;
     --color-text-light-blue: #0070D1;
     --color-button-blue: #2D64E6;
     --color-button-orange: #CC3D0F;
@@ -129,3 +130,16 @@ html {
     background-color: var(--bg-color-blue);
 }
 /* /sezione dedicata al playstation now */
+
+
+/* sezione dedicata ai link e al copyright */
+
+.footer-bottom-box-link-copy {
+    background-color: var(--bg-color-footer);
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+/* /sezione dedicata ai link e al copyright */
