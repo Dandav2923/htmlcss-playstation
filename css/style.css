@@ -24,6 +24,10 @@ html {
     color: var(--bg-color-white);
 }
 
+.color-text-light-blue {
+    color: var(--color-text-light-blue);
+}
+
 /* <!-- sezione header top --> */
 
 .header-top .row .col-12 img {
@@ -75,12 +79,18 @@ html {
     padding-top: 20rem !important;
 }
 
+.btn-warning {
+    background-color: var(--color-button-orange);
+    border-color: var(--color-button-orange);
+}
+
 /* /sezione jumbotron  */
 
+/* sezione videogioco in evidenza */
 
-/* sezione elenco giochi ps */
-
-
-/* /sezione elenco giochi ps */
-
-/* sezione presentazione ps5 con immagine console e testo */
+.box-videogame-in-evidence {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ /* /sezione videogioco in evidenza */
