@@ -3,6 +3,7 @@
     --height-100: 100%;
     --bg-color-black: rgb(0,0,0);
     --bg-color-white: rgb(255,255,255);
+    --bg-color-blue: #081331;
     --color-text-light-blue: #0070D1;
     --color-button-blue: #2D64E6;
     --color-button-orange: #CC3D0F;
@@ -104,3 +105,27 @@ html {
 }
 
  /* /sezione delle nuove uscite  */
+
+ /* sezione dedicata all'abbonamento playstation plus */
+
+ .btn-primary {
+     background-color: lightgray;
+     border-color: lightgray;
+ }
+ 
+.box-playstation-plus {
+    background-color: grey;
+}
+
+.btn-primary:hover a {
+    color: var(--bg-color-white);
+}
+
+ /* /sezione dedicata all'abbonamento playstation plus */
+
+/* sezione dedicata al playstation now */
+
+.box-playstation-now {
+    background-color: var(--bg-color-blue);
+}
+/* /sezione dedicata al playstation now */
