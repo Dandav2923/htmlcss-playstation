@@ -94,3 +94,13 @@ html {
     background-position: center;
 }
  /* /sezione videogioco in evidenza */
+
+ /* sezione delle nuove uscite  */
+
+.box-new-release {
+    background-color: var(--bg-color-black);
+    font-weight: 500;
+    color: var(--bg-color-white);
+}
+
+ /* /sezione delle nuove uscite  */
