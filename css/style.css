@@ -96,6 +96,7 @@ html {
     border-radius: 10px;
     padding: 0.5em;
     transition: 1s;
+    cursor: pointer;
 }
 
 .videogames-container .container .col-12 .row .col-6:hover img {
@@ -103,6 +104,24 @@ html {
 }
 
 /* /sezione elenco giochi ps */
+
+/* sezione accessori per ps5 */
+.accessories-box .container .row .col-4 {
+    padding: 0.5em;
+}
+
+.accessories-box .container .row .col-4 img {
+    filter: opacity(50%);
+}
+
+.accessories-box .container .row .col-4:hover img {
+    filter: opacity(1);
+    border-bottom: 2px solid var(--color-text-light-blue);
+}
+
+
+/* /sezione accessori per ps5 */
+
 
 
 /* sezione videogioco in evidenza */
