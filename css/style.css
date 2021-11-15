@@ -73,7 +73,7 @@ html {
     width: 50%;
 }
 
-.text-box span {
+.text-box div {
     color: var(--bg-color-white);
 }
 
