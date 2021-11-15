@@ -88,6 +88,23 @@ html {
 
 /* /sezione jumbotron  */
 
+/* sezione elenco giochi ps */
+
+
+.videogames-container .container .col-12 .row .col-6 img {
+    border: 2px solid var(--color-text-light-blue);
+    border-radius: 10px;
+    padding: 0.5em;
+    transition: 1s;
+}
+
+.videogames-container .container .col-12 .row .col-6:hover img {
+   transform: translateY(-30px)
+}
+
+/* /sezione elenco giochi ps */
+
+
 /* sezione videogioco in evidenza */
 
 .box-videogame-in-evidence {
